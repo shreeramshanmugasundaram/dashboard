@@ -1,0 +1,7 @@
+.admin{
+	width: 100wh;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr auto 1fr;
+	/* justify-content:space-between; */
+}

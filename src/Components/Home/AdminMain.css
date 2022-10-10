@@ -1,0 +1,88 @@
+.adminMain{
+	max-width: 60rem;
+}
+.adminTitleText{
+	font-size: 1.5rem;
+	font-weight: 800;
+	padding: 1rem;
+	margin: 0.2rem;
+	background-color: bisque;
+	border-radius: 4px;
+}
+
+.adminCards{
+	display: flex;
+	margin-top: 0.5rem;
+}
+.adminCard{
+	border-radius: 6px;
+	background-color: bisque;
+	display: flex;
+	margin-left: 0.5rem;
+	justify-content: center;
+	align-items: center;
+	padding: 0.5rem;
+}
+.adminTitile{
+	font-size: 1rem;
+	font-weight: 700;
+	padding: 1rem;
+}
+.adminPercentage{
+	font-size: 1.2rem;
+	font-weight: 900;
+	padding: 1rem;
+}
+.searchBar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.2rem;
+	margin: 0.5rem;
+}
+.searchBar input{
+	width: 100%;
+	border: none;
+	outline: none;
+	border-radius: 6px;
+	background-color: #f1f1f1;
+	padding: 1rem;
+
+}
+.searchBtn{
+	border: none;
+	outline: none;
+	padding: 0.5rem 1rem 0.5rem 1rem;
+	background-color: burlywood;
+	border-radius: 6px;
+}
+
+.currentLabel{
+	margin: 0.5rem;
+	padding: 1rem;
+}
+
+.listItem{
+	display: flex;
+	margin: 0.5rem;
+	padding: 1rem;
+	background-color: bisque;
+	border-radius: 6px;
+}
+.eId{
+	width: 10%;
+}
+.eName{
+	width: 80%;
+}
+.eAvg{
+	width: 10%;
+}
+.currentLabel{
+	font-weight: 600;
+}
+
+.ListofEmployee{
+	overflow: scroll;
+	height: 46vh;
+}
